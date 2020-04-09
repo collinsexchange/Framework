@@ -16,3 +16,6 @@ use Silver\Core\Route;
 
 Route::get('/', 'Welcome@welcome', 'home', 'public');
 Route::get('/demo', 'Welcome@demo', 'home', 'public');
+
+// Route for Test controller.
+Route::get('/test', 'Test@get', 'test', 'public');
